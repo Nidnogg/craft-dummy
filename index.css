@@ -2,11 +2,10 @@
   /* palette */
   --base-color-contrast: #522d13;
   --base-color-black: #110a04;
-  --base-color: #FCF9DC;
-  --base-color-s1: #E3E0C5;
-  --base-color-s2: #BDBAA4;
-  --base-color-s3: #7D7B6D;
-  --base-color-s4: #3D3C35;
+  --base-color: #e7dfd5;
+  --base-color-s1: #84a9ac;
+  --base-color-s2: #3b6978;
+  --base-color-s3: #204051;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
@@ -66,9 +65,9 @@ li {
 }
 
 body {
-  background-color: var(--base-color);
+  background-color: var(--base-color-s3);
   font-family: 'Josefin Sans', sans-serif;
-  color: var(--base-color-s4);
+  color: var(--base-color);
   text-align: center;
   box-sizing: border-box;
   height: 100vh;
